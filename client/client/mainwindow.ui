@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>254</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/release/1499779922595.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Connet">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>连接(&amp;c)</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Edit_Ptxt">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>171</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(231, 231, 231);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>72</y>
+      <width>48</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>消息哟：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Send_Button">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>250</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>发送（&amp;s)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Edit_Stxt">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Agency FB&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="Port_Label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 9pt &quot;Agency FB&quot;;</string>
+       </property>
+       <property name="text">
+        <string>端口号：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Port_txt">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(225, 225, 225);</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>195</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="IP_Label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 9pt &quot;Agency FB&quot;;
+font: 9pt &quot;黑体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>IP地址：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="IP_txt">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>254</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuJsdj">
+    <property name="title">
+     <string>发现新技能(&amp;G)</string>
+    </property>
+    <widget class="QMenu" name="menuMUSIC_M">
+     <property name="title">
+      <string>MUSIC(&amp;M)</string>
+     </property>
+     <addaction name="MUSIC_F"/>
+     <addaction name="separator"/>
+     <addaction name="MUSIC_O"/>
+    </widget>
+    <addaction name="DOWN_FILE"/>
+    <addaction name="separator"/>
+    <addaction name="UP_FILE"/>
+    <addaction name="separator"/>
+    <addaction name="DATE_TIME"/>
+    <addaction name="separator"/>
+    <addaction name="SET_FONT"/>
+    <addaction name="separator"/>
+    <addaction name="SET_COLOR"/>
+    <addaction name="separator"/>
+    <addaction name="menuMUSIC_M"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>断开（&amp;E)</string>
+    </property>
+    <addaction name="QUIT"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助（&amp;H)</string>
+    </property>
+    <addaction name="ABOUT"/>
+    <addaction name="actionMORE_M_2"/>
+   </widget>
+   <addaction name="menuJsdj"/>
+   <addaction name="menu_H"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="DOWN_FILE"/>
+   <addaction name="separator"/>
+   <addaction name="UP_FILE"/>
+   <addaction name="separator"/>
+   <addaction name="QUIT"/>
+   <addaction name="separator"/>
+   <addaction name="ABOUT"/>
+  </widget>
+  <action name="DOWN_FILE">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/Push_Button_Download_512px_1185841_easyicon.net.png</normaloff>:/new/prefix1/release/Push_Button_Download_512px_1185841_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>DOWN_FILE(&amp;D)</string>
+   </property>
+  </action>
+  <action name="UP_FILE">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/upload_folded_256px_1184243_easyicon.net.png</normaloff>:/new/prefix1/release/upload_folded_256px_1184243_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>UP_FILE(&amp;P)</string>
+   </property>
+  </action>
+  <action name="QUIT">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/sign_out_32px_516194_easyicon.net.png</normaloff>:/new/prefix1/release/sign_out_32px_516194_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>QUIT(&amp;Q)</string>
+   </property>
+  </action>
+  <action name="actionSEND_MILE_s">
+   <property name="text">
+    <string>SEND_MILE(&amp;s)</string>
+   </property>
+  </action>
+  <action name="ABOUT">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/help_128px_43820_easyicon.net.png</normaloff>:/new/prefix1/release/help_128px_43820_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>ABOUT(&amp;B)</string>
+   </property>
+  </action>
+  <action name="DATE_TIME">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/alarm_clock_606px_1207989_easyicon.net.png</normaloff>:/new/prefix1/release/alarm_clock_606px_1207989_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>DATE_TIME(&amp;T)</string>
+   </property>
+  </action>
+  <action name="SET_FONT">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/pen_533px_1200874_easyicon.net.png</normaloff>:/new/prefix1/release/pen_533px_1200874_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>SET_FONT(&amp;F)</string>
+   </property>
+  </action>
+  <action name="SET_COLOR">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/color_lens_128px_1181767_easyicon.net.png</normaloff>:/new/prefix1/release/color_lens_128px_1181767_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>SET_COLOR(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionMORE_M">
+   <property name="text">
+    <string>MORE(&amp;M)</string>
+   </property>
+  </action>
+  <action name="actionMORE_M_2">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/more_579px_1201158_easyicon.net.png</normaloff>:/new/prefix1/release/more_579px_1201158_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>MORE(&amp;M)</string>
+   </property>
+  </action>
+  <action name="MUSIC_F">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/switch_off_216px_1185706_easyicon.net.png</normaloff>:/new/prefix1/release/switch_off_216px_1185706_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>MUSIC_F(&amp;F)</string>
+   </property>
+  </action>
+  <action name="MUSIC_O">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/release/switch_on_216px_1185707_easyicon.net.png</normaloff>:/new/prefix1/release/switch_on_216px_1185707_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>MUSIC_O(&amp;P)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

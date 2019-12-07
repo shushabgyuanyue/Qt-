@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>release/aimp_logo_512px_1183694_easyicon.net.png</file>
+        <file>release/alarm_clock_606px_1207989_easyicon.net.png</file>
+        <file>release/color_lens_128px_1181767_easyicon.net.png</file>
+        <file>release/help_128px_43820_easyicon.net.png</file>
+        <file>release/more_579px_1201158_easyicon.net.png</file>
+        <file>release/Push_Button_Download_512px_1185841_easyicon.net.png</file>
+        <file>release/sign_out_32px_516194_easyicon.net.png</file>
+        <file>release/upload_folded_256px_1184243_easyicon.net.png</file>
+        <file>release/send_128px_1182194_easyicon.net.png</file>
+        <file>release/pen_533px_1200874_easyicon.net.png</file>
+        <file>release/1499779922595.jpg</file>
+        <file>release/music_player_1251px_1206029_easyicon.net.png</file>
+        <file>release/switch_off_216px_1185706_easyicon.net.png</file>
+        <file>release/switch_on_216px_1185707_easyicon.net.png</file>
+    </qresource>
+</RCC>

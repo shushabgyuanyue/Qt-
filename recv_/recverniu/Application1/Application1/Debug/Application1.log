@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  Application1.cpp
+c:\users\林秋志\desktop\application1\application1\application1.cpp(40): warning C4551: 缺少参数列表的函数调用
+c:\users\林秋志\desktop\application1\application1\application1.cpp(155): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(343): note: 参见“strncpy”的声明
+c:\users\林秋志\desktop\application1\application1\application1.cpp(162): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\林秋志\desktop\application1\application1\application1.cpp(43): warning C4715: “menu”: 不是所有的控件路径都返回值
+  Application1.vcxproj -> C:\Users\林秋志\Desktop\Application1\Debug\Application1.exe
+  Application1.vcxproj -> C:\Users\林秋志\Desktop\Application1\Debug\Application1.pdb (Partial PDB)
